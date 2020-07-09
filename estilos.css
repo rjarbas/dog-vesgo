@@ -1,0 +1,93 @@
+.header {
+    background-color: #D6EAFF;
+    height: 80px;
+}
+
+.footer {
+    background-color: #FCA728;
+    height: 80px;
+}
+
+.footer p {
+    float: right;
+    line-height: 80px;
+}
+
+.logo {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    display: block;
+}
+
+nav ul li {
+    display: block;
+    float: left;
+}
+
+nav ul li a {
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 15px;
+}
+
+nav ul li a.ativo {
+    border-bottom: 3px solid #FCA728;
+}
+
+nav ul li a.ativo:hover {
+    border-bottom: 3px solid #FCA728;
+}
+
+nav ul li a:hover {
+    color: #000;
+    border-bottom: 3px solid #84C1FF;
+}
+
+.slider {
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.my-center {
+    display: flex;
+    align-items: center;
+}
+
+.slider img {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    min-width: 100%;
+}
+
+.cor1 {
+    background: #84C1FF;
+}
+
+.cor2 {
+    background: #ADD6FF;
+}
+
+.cor3 {
+    background: #D6EAFF;
+}
+
+.colores div {
+    height: 350px;
+}
