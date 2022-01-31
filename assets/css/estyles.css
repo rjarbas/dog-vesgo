@@ -1,0 +1,184 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    body {
+        background: #2D2D2D;
+        border: 1px solid #707070;
+        min-height: 100%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .container {
+        max-width: 780px;
+        margin: 0 auto;
+    }
+    
+    .container-small {
+        max-width: 680px;
+        margin: 0 auto;
+    }
+    
+    h1 {
+        display: block;
+        margin: 100px 0 60px 0;
+    }
+    
+    h1 span {
+        display: block;
+        overflow: hidden;
+        width: 1px;
+        height: 1px;
+    }
+    
+    h1 img {
+        display: block;
+        margin: 0 auto;
+        width: 160px;
+    }
+    
+    h2.sub-title {
+        font-size: 22px;
+        display: block;
+        margin: 0 auto;
+        margin: 0 auto;
+        color: #fff;
+        position: relative;
+        font-weight: 400;
+        width: fit-content;
+        padding-bottom: 8px;
+        margin-bottom: 29px;
+    }
+    
+    h2.sub-title::after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        display: block;
+        position: absolute;
+        background-color: #707070;
+        left: 0;
+        top: 31px;
+        z-index: 1;
+    }
+    
+    h2.sub-title::before {
+        content: "";
+        width: 20px;
+        height: 6px;
+        display: block;
+        position: absolute;
+        background: linear-gradient(#EA916B, #E05A4D);
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 29px;
+        z-index: 2;
+    }
+    
+    ul.menu {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 17px;
+        margin-bottom: 45px;
+    }
+    
+    ul.menu li {
+        display: block;
+    }
+    
+    ul.menu li a {
+        display: block;
+        height: 40px;
+        width: 200px;
+        background: linear-gradient(#EA916B, #E05A4D);
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px #2D2D2D;
+        font-weight: 400;
+    }
+    
+    .gradient-color-container {
+        background: #EA916B;
+        padding: 40px;
+        font-size: 15px;
+        color: #fff;
+        font-weight: 300;
+        line-height: 24px;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px #2D2D2D;
+    }
+    
+    .form div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 17px;
+    }
+    
+    .form input {
+        height: 46px;
+        background-color: #fff;
+        border-radius: 5px;
+        border: 0;
+        margin-bottom: 17px;
+        width: 100%;
+        padding: 0 20px;
+        color: #333;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+    }
+    
+    .form textarea {
+        height: 46px;
+        background-color: #fff;
+        border-radius: 5px;
+        border: 0;
+        width: 100%;
+        height: 200px;
+        padding: 15px 20px;
+        color: #333;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        margin-bottom: 22px;
+    }
+    
+    .form input[type="button"] {
+        height: 40px;
+        background-color: #373735;
+        border-radius: 10px;
+        border: 0;
+        width: 160px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 16%);
+        display: block;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    
+    .form textarea::placeholder {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        color: #999999;
+    }
+    
+    .form input::placeholder {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        color: #999999;
+    }
